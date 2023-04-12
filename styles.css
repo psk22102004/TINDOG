@@ -1,0 +1,195 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.container-fluid{
+  padding:3% 15% 6%;
+}
+
+/* NAVBAR */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.3rem;
+  font-family: Montserrat;
+  font-weight: lighter;
+}
+
+/* BUTTONS */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* DOG */
+
+.dog{
+  width:20%;
+  float: right;
+  margin-left: 100px;
+  transform:rotate(25deg);
+  position: absolute;
+}
+
+/* FEATURES */
+
+#features{
+  background-color: #f8f8f8;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* FEATURE IMAGES */
+
+.feat{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+/* 2nd row */
+
+.f{
+  padding: 150px;
+}
+
+.fh3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+.fp{
+  font-family: Montserrat;
+  color: grey;
+  width: 70%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* TESTIMONIALS */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+
+}
+
+/* PRICING */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #f8f8f8;
+
+}
+
+.cards{
+  padding: 3% 3%;
+  margin-top: 30px;
+}
+.but{
+  width: 100%;
+}
+
+/* MEDIA FOR MOBILE */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .dog{
+    position: static;
+    transform:rotate(0);
+    height: 500px;
+    width: auto;
+    margin-right: 25%;
+ }
+
+}
+
+/* CTA */
+
+#cta{
+  text-align: center;
+  padding: 150px;
+  background-color:#ff4c68;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.cta-h3{
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.cta-btn{
+  padding: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* FOOTER */
+
+#footer{
+  text-align: center;
+  padding: 150px;
+  font-family: Ubuntu;
+}
+
+.footer-img{
+  height: 30px;
+  width: 30px;
+  margin: 50px;
+}
